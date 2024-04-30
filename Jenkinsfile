@@ -1,7 +1,5 @@
 pipeline{
-
-    agent nay
-
+    agent any
     stages{
         stage("Git Checkout"){
             steps{
